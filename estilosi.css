@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Whisper&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color:#F0E68C ;
+    font-family: 'Whisper', cursive;
+}
+
+
+
+#prim {
+    height: 80vh;
+    border-radius: 28px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+#segun {
+    height: 80vh;
+    border-radius: 28px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 50px;
+}
+
+.titu {
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60px;
+}
+
+#printitu {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+#carta{
+    height: 80vh;
+    border-radius: 28px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 350px;
+}

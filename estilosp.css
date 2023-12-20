@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@500&display=swap');
+
+
+body {
+    background-color: #FFDEAD;
+    font-family: 'Whisper', cursive;
+    font-size: px;
+
+}
+
+.alin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.container-titulo {
+    height: 7vh;
+    background-color: black;
+    width: 1536px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nome {
+    text-align: center;
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+   
+}
+
+
+.container-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    margin-bottom: 50px;
+}
+
+.imgs {
+    width: 40vh;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: solid 2px;
+    margin-right: px;
+    padding: 10px;
+
+
+}
+
+.container-carta {
+    border: solid black 3px;
+    text-align: center;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    padding: 70px;
+    margin-bottom: 70px;
+}
+
+#titulo-1 {
+    margin-bottom: 30px;
+}
+
+#titulo-c {
+    margin-bottom: 18px;
+}
+
+
+
+
+.container-men .ab {
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container-men .ac {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+
+}
+
+.container-men .ad {
+    font-size: 20px;
+    color: DarkRed;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.container-men .co {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    color: #8B0000;
+
+}
+
+.container-men .cora {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.alin .botao {
+   height: 40px;
+}
+
+.alin .link {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'Young Serif', serif;
+}
+
+#carta-m {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+
+.alin .botao {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #DA70D6;
+    border: solid 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8B0000;
+}
+
+@media(max-width:600px) {
+  #nome{
+        font-size:15px;
+        margin-top: 2px;
+  }
+  .container-titulo{
+    width: 514px;
+  }
+
+   .imgs{
+    width: 14vh;
+    padding: 0;
+   }
+
+   .container-carta{
+    width: 200px;
+   }
+   #cora{
+    width: 300px;
+   }
+
+   .container-imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+}
+
